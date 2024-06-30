@@ -1,0 +1,15 @@
+created:
+    - database/factories/PostFactory.php
+    - database/factories/DocFactory.php
+    - database/factories/ActivityFactory.php
+    - database/migrations/2024_06_30_054314_create_posts_table.php
+    - database/migrations/2024_06_30_054315_create_docs_table.php
+    - database/migrations/2024_06_30_054316_create_activities_table.php
+    - app/Models/Post.php
+    - app/Models/Doc.php
+    - app/Models/Activity.php
+models:
+    User: {  }
+    Post: { title: string, body: text }
+    Doc: { title: string, doc: string }
+    Activity: { title: string, body: text }
